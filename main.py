@@ -1,0 +1,5 @@
+strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
+EPXDisplay.powerupclear(strip, 5)
+EPXDisplay.powerupclear(strip, 0)
+EPXDisplay.play(strip, EPXAnimations.WEATHER)
+strip.show()
